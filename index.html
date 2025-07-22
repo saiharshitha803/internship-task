@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+</head>
+<style>
+  body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff7f0;
+    text-align: center;
+    padding: 30px;
+  }
+  h1{
+    color: #ff6f61;
+  }
+  p{
+    color:#333333;
+    font-size: 18px;
+  }
+  a{
+    color: #d34500;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  button{
+    padding: 10px 20px;
+    background-color:#f39c12;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  button:hover{
+    background-color: #e67e22;
+  }
+  img{
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+</style>
+<body>
+    <h1> Welcome to my webpage</h1>
+    <p>here is the page where the basics of html and css</p>
+    <img src="https://i.pinimg.com/originals/ba/0e/b8/ba0eb82dbe74fb21925083c2ea7475b4.jpg" alt ="sample image" width="300"/>
+    <p>here is the link to visit Google</p>
+    <a href="https://www.google.com" target ="_blank"> Google is here</a>
+    <br><br>
+    <button onclick="showMessage()" > Click Me</button>
+    <script>
+        function showMessage() {
+            alert("Hello! You clicked the button.");
+        }
+        </script>
+</body>
+</html>
